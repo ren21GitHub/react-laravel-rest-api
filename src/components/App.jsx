@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 // import axios from "axios";
 import MyForm from "./MyForm";
-// import CustomerList from "./CustomerList";
+import CustomerList from "./CustomerList";
 // import Loader from "./Loader";
-// import "./app.css";
+import "./app.css";
 
 class App extends Component {
 //   state = {
@@ -109,12 +109,12 @@ class App extends Component {
             // onFormSubmit={this.onFormSubmit}
             // customer={this.state.customer}
           />
-          {/* {this.state.loader ? <Loader /> : ""}
+          {/* {this.state.loader ? <Loader /> : ""} */}
           <CustomerList
-            customers={this.state.customers}
-            onDelete={this.onDelete}
-            onEdit={this.onEdit}
-          /> */}
+            // customers={this.state.customers}
+            // onDelete={this.onDelete}
+            // onEdit={this.onEdit}
+          />
         </div>
       </div>
     );

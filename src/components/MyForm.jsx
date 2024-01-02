@@ -84,49 +84,49 @@ class MyForm extends Component {
 
   render() {
     return (
-        <div>MyForm</div>
-        // <form className="ui form">
-        //     <div className="fields">
-        //         <div className="four wide field">
-        //             <label>First name</label>
-        //             <input
-        //             type="text"
-        //             name="first_name"
-        //             placeholder="First Name"
-        //             onChange={this.handleChange}
-        //             value={this.state.form.first_name}
-        //             />
-        //         </div>
+      // <div>adfa</div>
+        <form className="ui form">
+            <div className="fields">
+                <div className="four wide field">
+                    <label>First name</label>
+                    <input
+                    type="text"
+                    name="first_name"
+                    placeholder="First Name"
+                    // onChange={this.handleChange}
+                    // value={this.state.form.first_name}
+                    />
+                </div>
 
-        //         <div className="four wide field">
-        //             <label>Last name</label>
-        //             <input
-        //             type="text"
-        //             name="last_name"
-        //             placeholder="Last Name"
-        //             onChange={this.handleChange}
-        //             value={this.state.form.last_name}
-        //             />
-        //         </div>
+                <div className="four wide field">
+                    <label>Last name</label>
+                    <input
+                    type="text"
+                    name="last_name"
+                    placeholder="Last Name"
+                    // onChange={this.handleChange}
+                    // value={this.state.form.last_name}
+                    />
+                </div>
 
-        //         <div className="six wide field">
-        //             <label>E-mail</label>
-        //             <input
-        //             type="email"
-        //             name="email"
-        //             placeholder="joe@schmoe.com"
-        //             onChange={this.handleChange}
-        //             value={this.state.form.email}
-        //             />
-        //         </div>
+                <div className="six wide field">
+                    <label>E-mail</label>
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="joe@schmoe.com"
+                    // onChange={this.handleChange}
+                    // value={this.state.form.email}
+                    />
+                </div>
 
-        //         <div className="two wide field">
-        //             <button className={this.state.btnClass} onClick={this.onFormSubmit}>
-        //             {this.state.btnName}
-        //             </button>
-        //         </div>
-        //     </div>
-        // </form>
+                <div className="two wide field">
+                    <button className="ui primary button submit-button" /* className={this.state.btnClass} onClick={this.onFormSubmit} */>
+                    {/* {this.state.btnName} */}Search
+                    </button>
+                </div>
+             </div>
+        </form>
     );
   }
 }
